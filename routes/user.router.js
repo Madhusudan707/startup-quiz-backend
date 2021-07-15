@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const jwt = require('jsonwebtoken')
 const secret = process.env.SECRET
-// const {userLogger} = require('../middleware/userLogger')
 const {registerAndSendUserData,loginAndSendUserData} = require("../controller/user.controller")
 const {authenticateUser} = require('../middleware/auth.middleware')
 

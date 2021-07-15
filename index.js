@@ -23,8 +23,7 @@ app.use("/answer",answer)
 app.use("/score",score)
 
 app.get("/", (request, response) => {
-  response.json({ hello: "Welcome to Startup Quiz" });
-  // response.sendFile(__dirname+"/welcome.html");
+  response.sendFile(__dirname + "/welcome.html");
 });
 
 /**
