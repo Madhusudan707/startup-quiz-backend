@@ -1,6 +1,3 @@
-# STARTUP-QUIZ-API
-## Preview
-
 ![Live Gif](startup_quiz.png)
 ## Live Site
 
